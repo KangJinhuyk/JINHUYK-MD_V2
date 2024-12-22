@@ -1,0 +1,55 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "Kang jinhuyk",
+    "Theme": "JINHUYK-MD_V2",
+    "LANGCODE": "fr",
+    "STRINGS": {  
+        "updater": {    
+            "UPDATE": "*Votre bot est déjà à jour, Monsieur*",
+            "NEW_UPDATE": "*Une nouvelle mise à jour est disponible pour le bot !*\n\n*Modifications :*\n",
+            "UPDATED_LOCAL": "*Mise à jour réussie!*"
+        },    
+        "global": {   
+            "botName": "JINHUYK-MD_V2",
+            "body": "Comme toujours, Monsieur.",
+            "greet2" : "Bonjour Monsieur",
+            "pic1": "https://i.imgur.com/OQOH4Gn.jpeg",
+            "pic2": "https://i.imgur.com/OQOH4Gn.jpeg",
+            "pic3": "https://i.imgur.com/OQOH4Gn.jpeg",
+            "pic4": "https://i.imgur.com/OQOH4Gn.jpeg",
+            "pic5": "https://telegra.ph/file/85fe388fdd14930cf86a0.jpg",
+            "pic6": "https://i.imgur.com/lIo3cM2.jpeg",
+            "pic7": "https://i.imgur.com/lIo3cM2.jpeg",
+            "greet" : "Monsieur", 
+            "dotbody" : "Oh, bonjour Monsieur..",
+            "promote": "Rôle d'Admin Privilégié",
+            "pmallow": "*Salut, c'est JINHUYK-MD_V2*\n*Un assistant de Mon Maître.*\nMon Maître est occupé pour le moment.\nVeuillez laisser votre message.\n\n_Je l'informerai de votre message dès que possible......_",
+            "pmblock": "❌ Bloqué*\n\nVous avez été bloqué pour spamming.\n\n_𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 JINHUYK-MD_V2",
+            "pmwarn": "✋Salut*\nNe spammez pas sinon je vais vous bloquer pour spamming. _Vous avez ${checkPermit.times} avertissement(s).",
+            "permited": "Salut ${tname}*\n\nVous êtes maintenant autorisé par mon propriétaire à m'envoyer un message.\n\n *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 JINHUYK-MD_V2*", 
+            "revoked" : "*Salut ${tname}*\n\nVotre permission de m'envoyer un message a été révoquée.\n\n_𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 JINHUYK-MD_V2",
+            "demote": "Uhh, Rôle Admin retiré",
+            "antlink": "Lien détecté.\n*Au revoir, frère*",
+            "session": "\n*C'est votre session.sam.json, gardez-la en sécurité",
+            "mention": "Veuillez au moins mentionner un utilisateur, frère.",
+            "title": "JINHUYK-MD_V2",
+            "footer": "JINHUYK-MD_V2",
+            "by": "Fait par : *Kang jinhuyk*",
+            "chat_desc": "Options disponibles* : 1. muet\n2. réactiver\n3. archiver\n4. désarchiver\n5. lire\n6. non lu\n7. supprimer",
+            "success": "Fait ✓",
+            "dot": "Salut Monsieur, vouliez-vous dire *-help ?*",
+            "couple_male": "*Je ne veux pas mourir seul, je veux une femme, yaar*",
+            "couple_female": "*Je ne veux pas mourir seule, je veux un homme, yaar*",
+            "admin": "Cette commande est uniquement pour l'admin du groupe ⚠️!",
+            "botAdmin": "Veuillez me donner un rôle d'administrateur, Monsieur.❗",
+            "owner": "Cette commande est uniquement pour mon propriétaire ⚠️",
+            "group": "Cette fonctionnalité est uniquement pour les groupes❗",
+            "private": "Cette fonctionnalité est uniquement pour mon propriétaire ⚠️",
+            "bot": "Cette fonctionnalité est uniquement pour le numéro du bot ⚠️",
+            "wait": "Traitement de votre demande✅"
+        },
+        "error": {
+            "text": "*Monsieur, il y a une accumulation potentiellement fatale*"
+        }
+    }
+}

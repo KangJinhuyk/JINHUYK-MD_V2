@@ -1,0 +1,54 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "Kang jinhuyk",
+    "theme": "JINHUYK-MD_V2",
+    "LANGUAGE": "Français",
+    "LANGCODE": "fr",  
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "Le bot est à jour.",
+            "UPDATED_LOCAL": "Bot mis à jour avec succès"
+        },  
+        "global": {      
+            "botName": "JINHUYK-MD_V2",
+            "body": "Bot WhatsApp Simple", 
+            "greet2" : "Bonne journée, Monsieur",
+            "pic1": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic2": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic3": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic4": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic5": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic6": "https://i.imgur.com/EBUvKfB.jpeg", 
+            "pic7": "https://i.imgur.com/EBUvKfB.jpeg",
+            "greet" : "Salut",
+            "dotbody" : "Oh Monsieur Kang jinhuyk, mon créateur.",
+            "emojii" : "🍑", 
+            "promote": "JINHUYK-MD_V2 est un Admin",
+            "pmallow": "Bonjour &user, ne spammez pas",
+            "permited": "Bonjour Monsieur, vous pouvez maintenant m'envoyer des messages.", 
+            "revoked" : "Bonjour Monsieur, votre permission a été refusée.",
+            "demote": "Rôle Admin retiré",
+            "antlink": "Lien détecté.\n*J'ai supprimé le contrevenant*",
+            "session": "\nGardez votre identifiant de session en sécurité, Monsieur",
+            "mention": "Mentionnez mon propriétaire",
+            "title": "JINHUYK-MD_V2",
+            "footer": "JINHUYK-MD_V2",
+            "by": "Fait par Kang jinhuyk",
+            "chat_desc": "Options disponibles* : 1. muet\n2. réactiver\n3. archiver\n4. désarchiver\n5. lire\n6. non lu\n7. supprimer",
+            "success": "Fait ✓",
+            "dot": "Salut, voulais-tu dire *-help ?*\n ne me dérange pas pendant que je mange des ramen",
+            "couple_male": "*Je suis sûr que je ne peux pas vivre sans être aidé !*",
+            "couple_female": "*Je suis sûr que je ne peux pas vivre sans être aidé !*",
+            "admin": "Seul l'administrateur du groupe peut utiliser cette commande.",
+            "botAdmin": "Faites-moi un administrateur pour que je puisse agir.",
+            "owner": "C'est uniquement pour mon propriétaire.",
+            "group": "C'est uniquement pour le groupe.",
+            "private": "C'est uniquement pour mon propriétaire.",
+            "bot": "C'est uniquement pour mon propriétaire.",
+            "wait": "Traitement en cours..."
+        },
+        "error": {
+            "text": "Ne me touche pas."
+        }
+    } 
+}
