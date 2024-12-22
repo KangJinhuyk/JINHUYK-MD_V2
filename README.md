@@ -56,7 +56,7 @@ _value_
 
 ```
 postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.oregon-postgres.render.com/takudzwa
-```
+
 * * [⭐️Comment déployer sur Render⭐️](https://youtu.be/FiRpFMZZrMU?si=tyLUSRBqLt4wyfK-)
 
 
@@ -80,14 +80,14 @@ _La configuration Termux n'est pas recommandée_
     <td>Ashaf barry sasaki</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/xvYDAsD.jpeg" width="180"</td>
+    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/1YWlaIx.jpeg" width="180"</td>
     <td><a href="https://github.com/BarryAllen100"><img src="https://i.imgur.com/TAGPcMC.jpeg" width="180"</td>
   </tr>
 </table>
 
 ##CONTRIBUTEUR
-```
+
 **TOUT LE MONDE EST LE BIENVENU POUR CONTRIBUER À L'AMÉLIORATION DE NOTRE FAUTE SI VOUS AVEZ DES IDÉES N'HÉSITEZ PAS REJOINDRE LA CHAÎNE VOUS POURREZ TROUVER LE NUMÉRO CONTACTEZ-NOUS DE NOUVEAUX IDÉES SUR SON BONNET ON AJOUTE OÙ ON FAIT DES FAUTES POUR SAVOIR QUI A LA MEILLEURE IDÉE OU AUTRE MERCI DE ME SOUTENIR ÇA NOUS FAIT TRÈS PLAISIR C'ÉTAIT LA TEAM SASAKI**
-```
+
 
 * [🧑‍💻 Follow The Support whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41)
