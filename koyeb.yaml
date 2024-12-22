@@ -1,0 +1,54 @@
+nom: Jinhuyk MD_V2
+type: WEB
+
+routes:
+  - port: 8000
+    chemin: /
+
+ports:
+  - port: 8000
+    protocole: http
+
+environnement:
+  SESSION_ID: 
+  SUDO: 242067274660
+  MODE: public
+  AUTO_READ_STATUS: true
+  WAPRESENCE: disponible
+  OWNER_NUMBER: 242067274660
+
+régions:
+  - fra
+
+scalabilité:
+  - min: 1
+    max: 1
+
+types_d'instance:
+  - type: gratuit
+
+vérifications_de_santé:
+  - période_de_grâce: 5
+    intervalle: 30
+    limite_redémarrage: 3
+    délai_d'expiration: 5
+    tcp:
+      port: 8000
+
+volumes: []
+
+ignorer_le_cache: false
+
+git:
+  dépôt: https://github.com/KangJinhuyk/JINHUYK-MD_V2
+  branche: main
+  sha: aea4483e729d011f0c2671cb8ed51f61986eb203
+  pas_de_déploiement_sur_push: false
+  docker:
+    fichier_docker: ""
+    point_d'entrée: []
+    commande: ""
+    arguments: []
+    cible: ""
+    privilégié: false
+    

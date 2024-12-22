@@ -1,0 +1,148 @@
+{
+  "nom": "Jinhuyk MD_V2",
+  "description": "JINHUYK-MD_V2 : Un bot WhatsApp avancé et puissant pour une gestion facile et automatisée de vos groupes et conversations.",
+  "logo": "https://endpoint.web.id/server/file/I8dkDXm1nJDtOI75.jpg",
+  "mots_cles": ["Jinhuyk", "Jinhuyk MD_V2", "WhatsApp Bot"],
+  "url_succès": "/",
+  "pile": "container",
+  
+  "env": {
+    "NOM_PROPRIETAIRE": {
+      "description": "Nom du propriétaire du bot",
+      "valeur": "Kang Jinhuyk",
+      "requis": true
+    },
+    "BIENVENUE": {
+      "description": "Mettez 'false' ou 'true' pour activer ou désactiver la fonctionnalité BIENVENUE",
+      "valeur": "false",
+      "requis": false
+    },
+    "IMAGES_UTILISATEUR": {
+      "description": "Images du menu",
+      "valeur": "https://i.imgur.com/EMOA4nY.jpeg",
+      "requis": false
+    },
+    "AU_REVOIR": {
+      "description": "Mettez 'false' ou 'true' pour activer ou désactiver la fonctionnalité AU_REVOIR",
+      "valeur": "false",
+      "requis": false
+    },
+    "MENU": {
+      "description": "Choisissez 1, 2 ou 3",
+      "valeur": "1"
+    },
+    "IMAGE_VIGNETTE": {
+      "description": "Vignette",
+      "valeur": "https://i.imgur.com/1YWlaIx.jpeg"
+    },
+    "NOM_BOT": {
+      "description": "Nom pour le bot",
+      "requis": false,
+      "valeur": "*JINHUYK-MD_V2*"
+    },
+    "TZ": {
+      "description": "Mettez le fuseau horaire correspondant à votre localisation",
+      "requis": false,
+      "valeur": "Africa/Douala"
+    },
+    "LIRE_COMMANDE": {
+      "description": "Lire les commandes du bot",
+      "requis": false,
+      "valeur": "false"
+    },
+    "COMPTE_AVERTISSEMENT": {
+      "description": "Nombre d'avertissements avant de bloquer ou exclure un utilisateur",
+      "requis": false,
+      "valeur": "3"
+    },
+    "SAUVEGARDE_AUTO_STATUT": {
+      "description": "Sauvegarde automatique des statuts WhatsApp",
+      "requis": false,
+      "valeur": "false"
+    },
+    "CLE_API_HEROKU": {
+      "description": "Mettez ici votre clé API Heroku",
+      "valeur": "",
+      "requis": true
+    },
+    "NOM_APPLICATION_HEROKU": {
+      "description": "Mettez ici le nom de votre application Heroku",
+      "valeur": "",
+      "requis": true
+    },
+    "PRESENCE_WHATSAPP": {
+      "description": "Valeurs possibles : 'unavailable' (indisponible), 'available' (toujours en ligne), 'composing' (en train de taper), 'recording' (enregistrement) ou 'paused' (en pause)",
+      "requis": false,
+      "valeur": "unavailable"
+    },
+    "LECTURE_AUTO_STATUT": {
+      "description": "Mettez true si vous voulez que le bot voie vos statuts.",
+      "requis": false,
+      "valeur": "true"
+    },
+    "MESSAGES_DANS_JOURNAL": {
+      "description": "Mettez 'true' si vous voulez voir les messages dans les journaux.",
+      "requis": false,
+      "valeur": "false"
+    },
+    "LIRE_MESSAGE": {
+      "description": "Mettez true si vous voulez que le bot lise tous les messages.",
+      "requis": false,
+      "valeur": "false"
+    },
+    "DESACTIVER_PM": {
+      "description": "Mettez 'false' si vous voulez exécuter le bot dans vos messages privés (si le MODE est Public).",
+      "valeur": "false",
+      "requis": false
+    },
+    "PREFIXE": {
+      "description": "Entrez votre préfixe souhaité pour le bot (par exemple : 'all', '.', '.!*').",
+      "valeur": "."
+    },
+    "NUMERO_PROPRIETAIRE": {
+      "description": "Numéros de téléphone des utilisateurs à définir comme administrateurs du bot (au format international sans '+' ; plusieurs numéros doivent être séparés par une virgule ',').",
+      "valeur": "242067274660"
+    },
+    "ID_SESSION": {
+      "description": "Mettez ici votre ID de session.",
+      "valeur": ""
+    },
+    "MODE": {
+      "description": "Type de fonctionnement du bot. Utilisez 'public' (tout le monde peut l'utiliser) ou 'private' (seul le numéro du bot peut l'utiliser).",
+      "valeur": "public"
+    },
+    "NOM_PACK": {
+      "description": "Mettez ici le nom du pack d'autocollants.",
+      "valeur": "*JINHUYK-MD_V2*",
+      "requis": false
+    },
+    "AUTEUR_PACK": {
+      "description": "Mettez ici le nom de l'auteur du pack d'autocollants.",
+      "valeur": "Kangjinhuyk",
+      "requis": false
+    }  
+  },
+  
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantité": 1,
+      "taille": "standard-2x"
+    }
+  },
+  "add-ons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
